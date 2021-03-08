@@ -1,0 +1,191 @@
+body{
+
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    height:900px;
+    background-color:  #ccdef0 100%;
+    background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100%); ;
+}
+.container {
+    width:1170px;
+    
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nav-wrapper
+{display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+padding-top:70px;
+
+
+margin-bottom: 90px;}
+
+.logo
+{
+
+
+
+font-size: 28px;
+font-weight: 900;
+line-height: 1;
+
+color: #000000;}
+
+
+.logo span
+{color: #5abb33}
+
+.nav{
+    margin: 0;
+    padding:0;
+list-style:none;
+display: flex;
+flex-direction: row;}
+
+
+.nav_item{
+    margin-right:50px;
+
+}
+.nav_item:last-child{margin-right:0;}
+
+
+
+.nav_link{
+    color:#000000;
+    text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+line-height: 1;
+}
+.nav_link:hover{text-decoration: underline;}
+
+.header-content{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-desc{
+   
+    width: 500px;
+}
+
+
+.header_title{
+
+
+
+color: #000000;
+
+font-size: 48px;
+font-weight: 800;
+line-height: 62px;
+margin: 0;
+margin-bottom: 35px;
+}
+
+
+
+.header_text{
+
+
+   
+
+
+font-size: 20px;
+font-weight: 500;
+line-height: 34px;
+margin-bottom: 35px;
+}
+
+
+
+
+.header_btn{
+
+
+  display:inline-block;
+padding-left:35px;
+padding-right:35px;
+height: 65px;
+border-radius: 60px;
+background-color: #fadb60;
+background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+
+
+
+
+color: #000000;
+
+font-size: 24px;
+font-weight: 700;
+line-height: 1;
+text-decoration: none;
+padding-top:25px;
+
+
+
+
+}
+
+
+
+
+.header-photo{
+   
+    width: 670px;    
+}
+
+.header-social{}
+
+
+
+.header_social-item{
+
+    font-size:27px;
+    text-decoration:none;
+    color:#34383c;
+    margin-right:30px;
+}
+.header_social-item:last-child{margin-right:0;}
+
+
+
+.header_social-item:hover{opacity:0.8;}
+
+
+
+.footer{
+
+width: 100%;
+height: 114px;
+background-color: #232323;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 34px;
+
+color: rgba(0, 187, 178, 0.562);
+display: flex;
+justify-content: center;
+align-items:center;
+
+}
+.footer::before{
+    content:"";
+    display: table;
+}
